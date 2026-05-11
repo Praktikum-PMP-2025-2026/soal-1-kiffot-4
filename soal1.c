@@ -10,8 +10,8 @@ int main() {
         }
     }
         int deg[n];
-    int max;
-    int maxidx;
+    int max=0;
+    int maxidx=0;
     int isolated[n];
     int adaisolated;
     for (int i =0; i <n; i++){
