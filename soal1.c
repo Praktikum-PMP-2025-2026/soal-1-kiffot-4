@@ -22,8 +22,8 @@ int main() {
                 deg[i]+=1;
             }
         }
-        if (deg[n]>max){
-            max = deg[n];
+        if (deg[i]>max){
+            max = deg[i];
             maxidx=i;
         }
 
