@@ -13,7 +13,7 @@ int main() {
     int max=0;
     int maxidx=0;
     int isolated[n];
-    int adaisolated;
+    int adaisolated=0;
     for (int i =0; i <n; i++){
         deg[i]=0;
         isolated[i]=0;
