@@ -9,12 +9,7 @@ int main() {
             scanf("%d", &adj[i][j]);
         }
     }
-    for (int i =0; i <n; i++){
-        for (int j =0; j <n; j++){
-            printf("%d", adj[i][j]);
-        }
-    }
-    int deg[n];
+        int deg[n];
     int max;
     int maxidx;
     int isolated[n];
