@@ -1,3 +1,11 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 5
+ *   Hari dan Tanggal    : Senin, 11 Mei 2026
+ *   Nama (NIM)          : Kristheoren Clifford 13224086
+ *   Nama File           : soal1.c
+ *   Deskripsi           : menganalisis adjacency matrix
+ * 
+ */
 #include <stdio.h>
 
 int main() {
