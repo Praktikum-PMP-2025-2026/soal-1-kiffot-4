@@ -13,6 +13,7 @@ int main() {
     int max;
     int maxidx;
     int isolated[n];
+    int adaisolated;
     for (int i =0; i <n; i++){
         deg[i]=0;
         isolated[i]=0;
@@ -28,6 +29,7 @@ int main() {
 
         if (deg[i]==0){
             isolated[i]=1;
+            adaisolated=1;
         }
     }
     
@@ -36,11 +38,16 @@ int main() {
     }
     printf("MAX_VERTEX %d\n", maxidx);
     printf("ISOLATED");
-    for (int i =0; i <n; i++){
-        if (isolated[i]!=0){
-            printf(" %d", i);
+    if (adaisolated){
+        for (int i =0; i <n; i++){
+            if (isolated[i]!=0){
+                printf(" %d", i);
+            }
+            
         }
-        
+    }else{
+        printf ("NONE");
     }
+
 
 }
