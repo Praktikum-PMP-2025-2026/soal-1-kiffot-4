@@ -46,7 +46,7 @@ int main() {
             
         }
     }else{
-        printf ("NONE");
+        printf (" NONE");
     }
 
 
